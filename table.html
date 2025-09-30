@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabel html</title>
+    <style>
+      table,
+      tr,
+      thead,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Daftar ibukota negara menurut jumlah penduduk</h1>
+
+    <table>
+      <thead>
+        <th scope="col">Peringkat</th>
+        <th scope="col">Nama negara/wilayah</th>
+        <th scope="col">Ibukota</th>
+        <th scope="col">Populasi</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Tiongkok</td>
+          <td>Beijing</td>
+          <td>21.542.000</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="3">No</th>
+          <th rowspan="3">Nama</th>
+          <th colspan="3">Jenis Kelamin</th>
+          <th rowspan="3">Expiry Dates</th>
+        </tr>
+        <tr>
+          <td>Tak nak sebut</td>
+          <td>Male</td>
+          <td>Female</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Keanu Lionel Limen</td>
+          <td rowspan="2" colspan="3" style="text-align: center">Male</td>
+          <td>2029-09</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Keanu Lionel Limen</td>
+          <td>2029-09</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th rowspan="2">Tahun</th>
+          <th colspan="3">Morris(2010)<sup>[1]</sup></th>
+        </tr>
+        <tr>
+          <th>Populasi</th>
+          <th>Nama</th>
+          <th>Lokasi Sekarang</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">7000 SM</td>
+          <td rowspan="3">1000</td>
+          <td>Beidha</td>
+          <td>Yordania</td>
+        </tr>
+        <tr>
+          <td>Basta</td>
+          <td>Yordania</td>
+        </tr>
+        <tr>
+          <td>Basta</td>
+          <td>Turkey</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
